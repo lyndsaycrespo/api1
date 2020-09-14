@@ -1,0 +1,76 @@
+html, body {
+    background-color: #DCDCDC;
+    margin: 0;
+    padding: 0;
+}
+
+#getCats {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: auto;
+}
+
+#topText {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+}
+
+.catContainer {
+    margin: 60px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    column-gap: 20px;
+    row-gap: 80px;
+    align-items: start;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+}
+
+h2 {
+    text-align: center;
+    padding: 1.5rem 2.5rem;
+    background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+    margin: 0 0 2rem 0;
+    font-size: 1.5rem;
+    color: white; 
+}
+
+.card:nth-child(2n) h2 {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+p {
+    padding: 20px;
+    text-align: center;
+}
+
+/* things to do: round corners, hover, check padding for text, check layout for long bois, bold movie title/year text */
+
+/* to put on github: 
+1) open the terminal in vs code
+2) cd projects then cd portfolio then dir
+3) git init
+4) git status 
+5) git add . 
+6) git status
+7) git commit -m "message" e.g. first commit or finished navbar 9/14/2020
+8) git status (working tree should be clean)
+9) got to github and click the new repository button 
+10) should be your lyndsaycrespo.github.io - don't do anything else after typing this, just create the repository
+11) copy the text in github to push an existing repository from the command line and paste it in the terminal
+*/
+
