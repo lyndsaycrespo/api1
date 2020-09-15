@@ -65,6 +65,9 @@ async function displayCats(json) {
 
         for (let j = 0; j < films.length; j++) {
             let movieAndRelease = document.createElement('p');
+            movieAndRelease.className = 'movieAndRelease';
+            movieAndRelease.id = 'movieAndRelease' + j;
+
             let summary = document.createElement('p');
             //console.log(films);
            
